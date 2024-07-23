@@ -1,1 +1,17 @@
-
+{
+  "name": "Rocket",
+  "about": "Ракета",
+  "version": "1.0",
+  "notes": "Изначальная версия",
+  "builds": [
+    {
+      "chipFamily": "ESP8266",
+      "parts": [
+        {
+          "path": "https://raw.githubusercontent.com/timabats/Rocket-OTA/main/Rocket.ino.bin",
+          "offset": 0
+        }
+      ]
+    }
+  ]
+}
